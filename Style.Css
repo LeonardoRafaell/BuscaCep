@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+body {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  /*Cor gradiente do site 'https://cssgradient.io/' */
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 39%,
+    rgba(24, 0, 52, 1) 100%
+  );
+  /**/
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid azure;
+  padding: 10px;
+  gap: 5px;
+  border-radius: 15px;
+}
+
+h2 {
+  text-align: center;
+  color: aliceblue;
+  font-size: 40px;
+}
+
+.button{
+    width: 100px;
+    height: 30px;
+}
+
+input {
+    
+    width: fit-content; 
+    padding: 12px 15px; 
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px; 
+    box-sizing: border-box; 
+    line-height: 1.5;
+    outline: none;
+    
+
+}
+
